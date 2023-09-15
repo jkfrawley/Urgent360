@@ -1,0 +1,162 @@
+*{
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.ellipse {
+  position: absolute;
+  display: flex;
+  top: -400px;
+  left: -250px;
+  background-image: url(img/Ellipse1.svg);
+  height:1239px;
+  width: 1239px;
+}
+
+.heroSection p {
+  color:white;
+  font-size: 56px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.descriptionText {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 900px;
+}
+
+.content {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 50px;
+}
+
+.content h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.titleClass {
+  height: 934px;
+  font-weight:500;
+}
+
+.logo {
+  height: 400px;
+  padding-left: 220px;
+}
+
+.buttons{
+  padding-left: 175px;
+  width: 750px;
+}
+
+.iphone {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{ 
+  width: 400px;
+  height: 275px;
+  margin-right:50px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+.about {
+ font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5F5;
+ 
+}
+.aboutHeading {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.aboutList {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.listItem img {
+  padding: 25px;
+  max-width: 125px;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  
+}
+.iphoneApp {
+  margin: 0 auto;
+
+}
+.features h2 {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.carousel {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  margin: 0 auto;
+
+}
+footer {
+  background-color: #3D155F;
+}
+.footerText {
+  font-family: 'Montserrat';
+  color:white;
+  font-size: 36px;
+  max-width: 900px;
+  padding-top: 75px;
+  text-align: center;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+.footerButtons{
+  padding-bottom: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.logoFooter {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  margin: 0 auto;
+}
